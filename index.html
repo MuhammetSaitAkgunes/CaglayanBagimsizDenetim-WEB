@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Çağlayan Bağımsız Denetim</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/caglayan_amblem_25px.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Erol Çağlayan Yeminli Mali Müşavirlik; vergi denetimi, tam tasdik, KDV iadesi ve finansal danışmanlık hizmetleri ile işletmenize kurumsal çözümler sunar." />
+  <meta name="keywords"
+    content="yeminli mali müşavir, ymm, tam tasdik, vergi danışmanlığı, kdv iadesi, bağımsız denetim, kocaeli ymm, erol çağlayan" />
+  <meta name="author" content="Erol Çağlayan" />
+  <meta name="robots" content="index, follow" />
+  <!-- <link rel="canonical" href="https://www.caglayanymm.com/" /> (Canlıya alınca aktif edilecek) -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.caglayanymm.com/" />
+  <meta property="og:title" content="Çağlayan Yeminli Mali Müşavirlik | Kurumsal Çözümler" />
+  <meta property="og:description"
+    content="Vergi denetimi, tam tasdik ve danışmanlık hizmetlerinde güvenilir çözüm ortağınız." />
+  <meta property="og:image" content="https://www.caglayanymm.com/assets/img/caglayan_share_img.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.caglayanymm.com/" />
+  <meta property="twitter:title" content="Çağlayan Yeminli Mali Müşavirlik | Kurumsal Çözümler" />
+  <meta property="twitter:description"
+    content="Vergi denetimi, tam tasdik ve danışmanlık hizmetlerinde güvenilir çözüm ortağınız." />
+  <meta property="twitter:image" content="https://www.caglayanymm.com/assets/img/caglayan_share_img.jpg" />
+</head>
+ 
+<body>
+  <header class="nav">
+    <div class="container inner">
+      <a class="brand" href="/" aria-label="Anasayfa">
+        <!-- <img src="logo.svg" alt="Erol Çağlayan YMM Logo" /> -->
+        <div>
+          <div class="ttl">Çağlayan Bağımsız Denetim</div>
+          <div class="cap">Erol Çağlayan</div>
+        </div>
+      </a>
+      
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç/Kapat" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <div class="nav-main" id="navMain">
+        <nav aria-label="Birincil">
+          <ul class="menu" id="menu">
+            <li>
+              <button type="button" aria-haspopup="true" aria-expanded="false">
+                Kurumsal ▾
+              </button>
+              <div class="dropdown" role="menu">
+                <a href="/hakkimizda">Hakkımızda</a>
+                <a href="/misyon-vizyon">Misyon ve Vizyonumuz</a>
+                <a href="/kurumsal/kadromuz">Kadromuz</a>
+              </div>
+            </li>
+            <li>
+              <button type="button" aria-haspopup="true" aria-expanded="false">
+                Hizmetler ▾
+              </button>
+              <div class="dropdown" role="menu">
+                <a href="/hizmetler">Tüm Hizmetler</a>
+                <a href="/egitim">Eğitim</a>
+              </div>
+            </li>
+            <li><a href="/sirkuler">Sirküler</a></li>
+            <li><a href="/yargi-kararlari">Güncel Yargı Kararları</a></li>
+            <li><a href="/seminerler">Seminerler</a></li>
+          </ul>
+        </nav>
+        <button class="nav-cta" data-modal="#contactModal">İletişim</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="view-home" class="view is-active" role="main">
+    <section class="hero" id="top">
+      <div class="slide" data-idx="0" style="
+            --bg: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1920&auto=format&fit=crop');
+          ">
+        <div class="content">
+          <div class="hero-copy">
+            <div class="eyebrow">// Kurumsal Güvenceniz</div>
+            <h1>Mali Sorunlara <strong>Güvenilir Çözüm</strong></h1>
+            <p>
+              Vergi, denetim ve mali raporlama süreçlerinde güvenilir bir yol
+              arkadaşıyız. İşletmelerin sürdürülebilirliği için kurumsal,
+              şeffaf ve doğru adımlar.
+            </p>
+            <div class="mt-16">
+              <a class="btn" data-modal="#contactModal">Hemen İletişime Geçin →</a>
+            </div>
+          </div>
+        </div>
+        <div class="dots" aria-hidden="true"></div>
+      </div>
+      <template id="slides">
+        <div class="slide" data-idx="1" style="
+              --bg: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1920&auto=format&fit=crop');
+            ">
+          <div class="content">
+            <div class="hero-copy">
+              <div class="eyebrow">// Deneyim ve Uyum</div>
+              <h1>Tam Tasdik & <strong>Denetim Güvencesi</strong></h1>
+              <p>
+                Mali tabloların doğruluğunu güvence altına alır; işletmenizin
+                itibarını güçlendiririz.
+              </p>
+              <div class="mt-16">
+                <a class="btn" href="/hizmetler">Hizmetlerimizi Keşfedin →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide" data-idx="2" style="
+              --bg: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1920&auto=format&fit=crop');
+            ">
+          <div class="content">
+            <div class="hero-copy">
+              <div class="eyebrow">// Çözüm ve Strateji</div>
+              <h1>Vergi İhtilaflarında <strong>Etkin Temsil</strong></h1>
+              <p>Uyuşmazlık süreçlerinde sonuç odaklı, tecrübeli ekip.</p>
+              <div class="mt-16">
+                <a class="btn" data-modal="#contactModal">Danışmanlık Talep Et →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+    </section>
+
+    <section class="slogan-sec" id="slogan">
+      <div class="slogan-inner">
+        <h2 class="slogan-title">Güven, Şeffaflık, Uyum</h2>
+        <p class="slogan-sub">
+          İşletmenizin mali yolculuğunda stratejik ve sürdürülebilir çözümler
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="hizmetler">
+      <div class="services-wrap">
+        <h2>Hizmetlerimiz</h2>
+        <p class="lead">
+          Yeminli mali müşavirlik kapsamında ihtiyaç duyduğunuz mali çözümleri
+          uzman ekibimizle sunuyoruz.
+        </p>
+        <div class="s2-grid" id="svc"></div>
+        <div class="s2-ctaRow">
+          <a class="s2-more" href="/hizmetler">Daha fazlası →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-sec" id="rakamlar">
+      <div class="container">
+        <h2>RAKAMLARLA BİZ</h2>
+        <p class="lead">
+          Tamamlanan projeler, güçlü ekibimiz ve yüksek müşteri memnuniyetiyle
+          büyüyoruz.
+        </p>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <div class="num" data-target="137" data-suffix="+">0</div>
+          <div class="sep"></div>
+          <div class="label">TAMAMLANAN<br />VERGİ İNCELEME DANIŞMANLIĞI</div>
+        </div>
+        <div class="stat">
+          <div class="num" data-target="99" data-suffix="%">0</div>
+          <div class="sep"></div>
+          <div class="label">
+            MÜŞTERİ MEMNUNİYETİ ve<br />OLUMLU GERİ BİLDİRİM
+          </div>
+        </div>
+        <div class="stat">
+          <div class="num" data-target="135" data-suffix="+">0</div>
+          <div class="sep"></div>
+          <div class="label">BAŞARIYLA SONUÇLANAN<br />DAVA DOSYASI</div>
+        </div>
+        <div class="stat">
+          <div class="num" data-target="10" data-suffix="+">0</div>
+          <div class="sep"></div>
+          <div class="label">ALANINDA UZMAN<br />PROFESYONEL KADRO</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="hakkimizda-sec">
+      <div class="about">
+        <div class="about__img">
+          <img loading="lazy" src="assets/img/KEML2397.webp" alt="Kurucumuz | Erol Çağlayan" />
+        </div>
+        <div>
+          <h2>
+            Güvenilir Mali Çözümler için; <br />
+            Erol Çağlayan Mali Müşavirlik
+          </h2>
+          <br />
+          <p>
+            Yeminli Mali Müşavir Erol Çağlayan, Gazi Üniversitesi İşletme
+            Bölümü mezunu olup, Maliye Bakanlığı’nda uzun yıllar Vergi
+            Müfettişi olarak görev yapmıştır. Görev süresince kamu maliyesi ve
+            denetim alanlarında edindiği deneyimlerini, 2016 yılından bu yana
+            özel sektörde kurumsal çözümler üretmek için kullanmaktadır.
+          </p>
+          <p>
+            Vergi danışmanlığı, ihtilafların çözümü, tam tasdik ve denetim
+            gibi alanlarda uzman ekibiyle hizmet sunan Erol Çağlayan,
+            işletmelerin mali süreçlerinde güvenilir, şeffaf ve sürdürülebilir
+            yapılar oluşturmasına katkı sağlamaktadır.
+          </p>
+          <p>
+            Kurumsal sorumluluk anlayışıyla, her ölçekte işletmenin mali
+            hedeflerine ulaşmasını desteklemeye devam etmektedir.
+          </p>
+          <br />
+          <br />
+          <div class="mt-16">
+            <a class="btn" data-modal="#contactModal">İletişime Geç</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news" id="guncel">
+      <div class="container">
+        <h2 style="color: #e7f7ff">SON GELİŞMELER</h2>
+        <p class="lead" style="color: #bfefff">
+          Vergi mevzuatındaki güncel değişiklikler, seminer duyuruları ve
+          önemli bilgilendirmeler.
+        </p>
+      </div>
+      <div class="carousel mt-24" id="newsCarousel">
+        <button class="ctrl prev" aria-label="Geri">‹</button>
+
+        <div class="track" id="track"></div>
+
+
+        <button class="ctrl next" aria-label="İleri">›</button>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-hizmetler" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Hizmetler</h2>
+        <p class="lead">Tüm hizmet başlıklarımız ve kısa açıklamaları.</p>
+        <div class="s2-grid" id="allServices"></div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-hizmet-detay" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <div class="service-detail-header">
+          <h2 id="svcTitle">Hizmet Detayı</h2>
+          <p class="lead" id="svcLead">
+            Seçtiğiniz hizmetin kapsamı, süreçleri ve sizin için sağladığı
+            avantajlar.
+          </p>
+          <div class="service-meta" id="svcMeta"></div>
+        </div>
+        <div class="service-detail-body">
+          <div id="svcMain"></div>
+          <aside class="service-side" id="svcSide"></aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-detay-blog" class="view" role="main">
+    <section class="section">
+      <div class="blog-wrapper">
+        <header class="blog-header">
+          <span class="blog-date" id="blogDate"></span>
+          <h2 class="blog-title" id="blogTitle"></h2>
+        </header>
+
+        <img id="blogImage" class="blog-hero-img" alt="" loading="lazy">
+
+        <div class="blog-content" id="blogBody">
+        </div>
+
+        <div id="blogSliderArea" style="display:none;">
+          <div class="slider-container">
+            <span class="slider-label">Etkinlik Görselleri</span>
+            <div class="mini-slider" id="miniSlider">
+              <div class="mini-track" id="miniTrack">
+              </div>
+              <div class="mini-nav">
+                <button class="mini-btn prev">‹</button>
+                <button class="mini-btn next">›</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-32 center">
+          <a onclick="history.back()" class="btn" style="text-decoration:none;cursor:pointer">← Listeye Geri Dön</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- <main id="view-kadromuz" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Kadromuz</h2>
+        <p class="lead">Uzman ekibimizle kurumsal çözümler üretiyoruz.</p>
+        <div class="grid cols-4" id="teamGrid"></div>
+      </div>
+    </section>
+  </main> -->
+
+  <main id="view-egitim" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Eğitim</h2>
+        <p class="lead">Düzenlediğimiz eğitimler ve kayıt bağlantıları.</p>
+        <div class="grid cols-3" id="eduGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-egitim-detay" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <div class="service-detail-header">
+          <h2 id="eduTitle">Eğitim Detayı</h2>
+          <p class="lead" id="eduLead">
+            Eğitimin kapsamı, hedef kitlesi ve kazanımları hakkında detaylı bilgiler.
+          </p>
+          <div class="service-meta" id="eduMeta"></div>
+        </div>
+
+        <div class="service-detail-body">
+          <div id="eduMain"></div>
+          <aside class="service-side" id="eduSide"></aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-kurumsal" class="view" role="main">
+    <section class="section section--alt" id="sec-hakkimizda">
+      <div class="container-narrow">
+        <div class="corp-grid">
+          <div class="corp-img-wrap">
+            <img loading="lazy" src="assets/img/KEML2397.webp" alt="Hakkımızda">
+          </div>
+          <div class="corp-content">
+            <h2 id="corpAboutTitle" class="section-title">Hakkımızda</h2>
+            <div id="corpAboutText" class="text-content"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sec-misyon">
+      <div class="container-narrow">
+        <div class="mv-grid">
+          <div class="mv-card">
+            <div class="mv-icon">🎯</div>
+            <h3 id="corpMissionTitle">Misyonumuz</h3>
+            <p id="corpMissionText"></p>
+          </div>
+          <div class="mv-card">
+            <div class="mv-icon">👁️</div>
+            <h3 id="corpVisionTitle">Vizyonumuz</h3>
+            <p id="corpVisionText"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="sec-kadromuz">
+      <div class="container">
+        <div class="center mb-40">
+          <h2>Organizasyon Şeması</h2>
+          <p class="lead">Deneyimli ve uzman kadromuzla hizmetinizdeyiz.</p>
+        </div>
+
+        <div class="org-tree-wrapper" id="orgTree">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-sirkuler" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Sirküler</h2>
+        <p class="lead">Güncel sirküler listesi.</p>
+        <div class="grid cols-3" id="circGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-yargi-kararlari" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Güncel Yargı Kararları</h2>
+        <p class="lead">Seçilmiş kararlar ve özetleri.</p>
+        <div class="grid cols-3" id="caseGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <main id="view-seminerler" class="view" role="main">
+    <section class="section section--alt">
+      <div class="container">
+        <h2>Seminerler</h2>
+        <p class="lead">Geçmiş ve yaklaşan seminerler.</p>
+        <div class="grid cols-3" id="semGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="contactModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="contactTitle"
+    aria-describedby="contactDesc">
+    <div class="panel">
+      <button class="close" data-close>✕</button>
+      <div class="panel-inner">
+        <div style="
+              background: #0f2230;
+              border: 1px solid rgba(255, 255, 255, 0.1);
+              border-radius: 12px;
+              padding: 16px;
+            ">
+          <h3 id="contactTitle">Bize Ulaşın</h3>
+          <p id="contactDesc" style="margin: 0 0 8px; color: #cfe9f6">
+            Formu doldurun; en kısa sürede dönüş yapalım.
+          </p>
+          <form id="contactFormModal">
+            <label>Ad Soyad<br /><input required name="name" type="text" class="nl-input"
+                style="margin-top: 6px" /></label>
+            <div class="mt-16">
+              <label>E-posta<br /><input required name="email" type="email" class="nl-input"
+                  style="margin-top: 6px" /></label>
+            </div>
+            <div class="mt-16">
+              <label>Konu<br /><input name="subject" type="text" class="nl-input" style="margin-top: 6px" /></label>
+            </div>
+            <div class="mt-16">
+              <label>Mesaj<br /><textarea required name="message" rows="4" class="nl-input"
+                  style="margin-top: 6px; resize: vertical"></textarea>
+              </label>
+            </div>
+            <div class="mt-16" style="display: flex; gap: 10px; align-items: center">
+              <button class="nav-cta" type="submit" id="contactBtnModal">
+                Gönder
+              </button>
+              <span id="contactStatusModal" role="status" aria-live="polite"></span>
+            </div>
+          </form>
+        </div>
+        <aside style="
+              background: #0f2230;
+              border: 1px solid rgba(255, 255, 255, 0.1);
+              border-radius: 12px;
+              padding: 16px;
+            ">
+          <!-- <h3 style="margin: 0 0 8px; color: #aef3ff">İletişim Bilgileri</h3> -->
+          <p style="margin: 0; color: #cfe9f6">
+            Tel: <a href="tel:+905332781041">0533 278 1041</a><br />
+            E-posta: <a href="mailto:info@ornekymm.com">info@caglayanymm.com</a><br />
+            Adres: Ovacık Mah. Kavacıklık Sok. No:29 K:1 D:16 Başiskele /
+            Kocaeli
+          </p>
+          <div>
+            <div class="map-card" aria-label="Ofis Konumu Haritası">
+              <!-- <iframe
+                class="map-embed"
+                src="https://www.google.com/maps?&q=Ovac%C4%B1k%20Mah.%20Kavac%C4%B1kl%C4%B1k%20Sok.%20No:29%20K:1%20D:16,%20Ba%C5%9Fiskele%20/%20Kocaeli&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe> -->
+              <iframe class="map-embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.31027520981!2d29.97514891145552!3d40.7551999712679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb5ba55ec3e11f%3A0x240414aabb10942a!2sDuo%20Life%20Residence!5e0!3m2!1str!2sus!4v1764430657597!5m2!1str!2sus"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form id="newsletterForm" class="newsletter" style="margin-top: 16px">
+              <h4 class="title">Bültenimize katılın</h4>
+              <p class="desc">
+                Hukuk & vergi dünyasındaki önemli değişiklikleri kaçırmayın.
+                Ayda 1-2 e-posta. <strong>Spam yok.</strong>
+              </p>
+              <div class="nl-row">
+                <input class="nl-input" type="email" name="email" placeholder="E-posta adresiniz"
+                  aria-label="E-posta adresiniz" required />
+                <button class="nl-btn" type="submit" id="nlBtn">
+                  Abone Ol
+                </button>
+              </div>
+              <div class="nl-note">
+                Gönder tuşuna basarak KVKK aydınlatma metnini kabul etmiş
+                olursunuz.
+              </div>
+              <div id="nlStatus" class="mt-8" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+      </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="cols">
+      <div>
+        <div class="brand" style="padding: 0">
+          <!-- <img src="logo.svg" alt="Logo" /> -->
+          <div>
+            <div class="ttl">Erol Çağlayan</div>
+            <div class="cap">Yeminli Mali Müşavir</div>
+          </div>
+        </div>
+        <p class="mt-8" style="max-width: 520px">
+          Mali sorunlarınıza çözümler geliştirmek için buradayız; deneyimli ve
+          özverili ekibimizle işletmelerinize kurumsal, şeffaf ve doğru
+          adımlar atıyoruz.
+        </p>
+        <div class="badge-row">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 12.36 12.36 0 003.88.62 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h2.44a1 1 0 011 1 12.37 12.37 0 00.62 3.88 1 1 0 01-.25 1.01l-2.19 2.2z" />
+          </svg>
+          <a href="tel:+905332781041">0533 278 1041</a>
+        </div>
+        <div class="badge-row">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5A2.5 2.5 0 119.5 9 2.5 2.5 0 0112 11.5z" />
+          </svg>
+          Ovacık Mah. Kavacıklık Sok. No:29 K:1 D:16, Başiskele / Kocaeli
+        </div>
+      </div>
+      <div>
+        <h4>Kurumsal</h4>
+        <ul class="list-clear">
+          <li><a href="/hakkimizda">Hakkımızda</a></li>
+          <li><a href="/misyon-vizyon">Misyon ve Vizyonumuz</a></li>
+          <li><a href="/kurumsal/kadromuz">Kadromuz</a></li>
+          <li><a href="#" data-modal="#contactModal">İletişim</a></li>
+        </ul>
+        <h4 class="mt-24">Faaliyet Alanlarımız</h4>
+        <ul class="list-clear">
+          <li><a href="/hizmetler">Tüm Hizmetler</a></li>
+          <li><a href="/egitim">Eğitim</a></li>
+          <li><a href="/sirkuler">Sirküler</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="map-card" aria-label="Ofis Konumu Haritası">
+          <iframe class="map-embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.31027520981!2d29.97514891145552!3d40.7551999712679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb5ba55ec3e11f%3A0x240414aabb10942a!2sDuo%20Life%20Residence!5e0!3m2!1str!2sus!4v1764430657597!5m2!1str!2sus"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form id="newsletterForm" class="newsletter" style="margin-top: 16px">
+          <h4 class="title">Bültenimize katılın</h4>
+          <p class="desc">
+            Hukuk & vergi dünyasındaki önemli değişiklikleri kaçırmayın. Ayda
+            1-2 e-posta. <strong>Spam yok.</strong>
+          </p>
+          <div class="nl-row">
+            <input class="nl-input" type="email" name="email" placeholder="E-posta adresiniz"
+              aria-label="E-posta adresiniz" required />
+            <button class="nl-btn" type="submit" id="nlBtn">Abone Ol</button>
+          </div>
+          <div class="nl-note">
+            Gönder tuşuna basarak KVKK aydınlatma metnini kabul etmiş
+            olursunuz.
+          </div>
+          <div id="nlStatus" class="mt-8" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+    <small>© <span id="yil"></span> Erol Çağlayan YMM. Tüm hakları
+      saklıdır.</small>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
