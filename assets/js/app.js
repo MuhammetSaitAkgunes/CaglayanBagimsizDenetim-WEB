@@ -788,7 +788,7 @@ function renderCorporatePage(hash) {
       <div class="org-tree">
           <div class="level-1">
               <div class="node">
-                  <img src="/assets/img/personel_photos/EROL ÇAĞLAYAN.webp" alt="Erol Çağlayan" 
+                  <img src="assets/img/personel_photos/EROL ÇAĞLAYAN.webp" alt="Erol Çağlayan" 
                        style="width: 110px; height: 140px; object-fit: cover; object-position: top center; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
                   <div class="node-content">
                       <div class="node-title">Erol Çağlayan</div>
@@ -801,7 +801,7 @@ function renderCorporatePage(hash) {
           
           <div class="level-2">
               <div class="node">
-                  <img src="/assets/img/personel_photos/LEYLA CANKALELİ_01.webp" alt="Leyla Cankaleli" 
+                  <img src="assets/img/personel_photos/LEYLA CANKALELİ_01.webp" alt="Leyla Cankaleli" 
                        style="width: 110px; height: 140px; object-fit: cover; object-position: top center; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
                   <div class="node-content">
                       <div class="node-title">Leyla Cankaleli</div>
@@ -820,43 +820,43 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">TAM TASDİK</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/TOLGA ÇELİK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/TOLGA ÇELİK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Tolga Çelik</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/BİLAL MUTLU.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/BİLAL MUTLU.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Enes Bilal Mutlu</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/ABDULBAKİ DEMİRER.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/ABDULBAKİ DEMİRER.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Abdulbaki Demirer</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/DR. HÜSEYİN UKUŞLU.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/DR. HÜSEYİN UKUŞLU.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Dr. Hüseyin Ukuşlu</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/ŞEMSETTİN YASAK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/ŞEMSETTİN YASAK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Şemsettin Yasak</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/YAVUZ SELİM BİNGÖL.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/YAVUZ SELİM BİNGÖL.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Yavuz Selim Bingöl</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/M.FURKAN KEYVANKLI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/M.FURKAN KEYVANKLI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Muhammet Furkan Keyvanklı</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/HÜSEYİN EMİR PULAT.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/HÜSEYİN EMİR PULAT.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Hüseyin Emir Pulat</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/SERAP PADAR.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/SERAP PADAR.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Serap Padar</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/YASEMİN DOĞRAMACI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/YASEMİN DOĞRAMACI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Yasemin Doğramacı</div>
                           </div>
                       </div>
@@ -868,11 +868,11 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">İNCELEME</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/OSMAN DİKBAŞ.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/OSMAN DİKBAŞ.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Osman Dikbaş</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/DİLAN ŞİMŞEK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/DİLAN ŞİMŞEK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Dilan Şimşek</div>
                           </div>
                       </div>
@@ -884,7 +884,7 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">DENETİM</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/MURAT ÇOLAK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/MURAT ÇOLAK.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Murat Çolak</div>
                           </div>
                       </div>
@@ -896,19 +896,19 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">İADE</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/SALİH SARI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/SALİH SARI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Salih Sarı</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/BÜLENT ERDOĞAN.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/BÜLENT ERDOĞAN.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Bülent Erdoğan</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/AHMET BALIKLIKAYA.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/AHMET BALIKLIKAYA.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Ahmet Balıklıkaya</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/HİLAL GÖKÇE YILDIRIM.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/HİLAL GÖKÇE YILDIRIM.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Hilal Yıldırım</div>
                           </div>
                           
@@ -918,15 +918,15 @@ function renderCorporatePage(hash) {
                           </div>
 
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/ELİF ARPAT.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/ELİF ARPAT.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Elif Arpat</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/DİLAN ZORER.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/DİLAN ZORER.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Dilan Zorer</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/FURKAN SANCAKTUTAN.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/FURKAN SANCAKTUTAN.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Furkan Sancaktutan</div>
                           </div>
                       </div>
@@ -938,7 +938,7 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">HUKUK</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/ASENA BABADAĞI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/ASENA BABADAĞI.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Av. Asena Babadağı</div>
                           </div>
                       </div>
@@ -950,7 +950,7 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">FİNANS</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/ALİ COŞKUN.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/ALİ COŞKUN.webp" style="width: 70px; height: 90px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Ali Coşkun</div>
                           </div>
                       </div>
@@ -962,11 +962,11 @@ function renderCorporatePage(hash) {
                       <div class="dept-header">İDARİ HİZMETLER</div>
                       <div class="staff-list">
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/ZAHİDE KARAKAYA.webp" style="width: 70px; height: 80px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/ZAHİDE KARAKAYA.webp" style="width: 70px; height: 80px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Zahide Karakaya</div>
                           </div>
                           <div class="staff-item">
-                            <img class="staff-img" src="/assets/img/personel_photos/TAMAY KAYA.webp" style="width: 70px; height: 80px; object-fit: cover; object-position: center; border-radius: 8px;">
+                            <img class="staff-img" src="assets/img/personel_photos/TAMAY KAYA.webp" style="width: 70px; height: 80px; object-fit: cover; object-position: center; border-radius: 8px;">
                             <div class="staff-name">Tamay Kaya</div>
                           </div>
                       </div>
@@ -989,5 +989,4 @@ function renderCorporatePage(hash) {
       if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }, 100);
-
 }
